@@ -18,6 +18,7 @@ public class MyControllerAdvice {
         return null;
     }
 
+
     @ModelAttribute(name = "currentUrl")
     public String currentUrl(HttpServletRequest request) {
         return request.getRequestURI();

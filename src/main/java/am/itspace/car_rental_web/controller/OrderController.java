@@ -19,8 +19,11 @@ import java.util.Optional;
 @RequiredArgsConstructor
 @Slf4j
 public class OrderController {
+
     private final CarService carService;
+
     private final OrderService orderService;
+
     @GetMapping("/order")
     public String order(@RequestParam("id") int id,ModelMap modelMap){
         log.info("/order has been called");

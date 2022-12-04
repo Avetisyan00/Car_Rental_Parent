@@ -23,6 +23,7 @@ public class CarRentalWebApplication {
 
     @Bean
     public BCryptPasswordEncoder passwordEncoder() {
+
         return new BCryptPasswordEncoder();
     }
 }

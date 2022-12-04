@@ -13,6 +13,7 @@ import org.springframework.web.multipart.MultipartFile;
 @Controller
 @RequiredArgsConstructor
 public class DealerController {
+
     private final UserService userService;
 
     //DEALERS REGISTRATION

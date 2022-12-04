@@ -13,6 +13,7 @@ import org.springframework.web.multipart.MultipartFile;
 @Controller
 @RequiredArgsConstructor
 public class DriverController {
+
     private final UserService userService;
 
     //DRIVERS REGISTRATION

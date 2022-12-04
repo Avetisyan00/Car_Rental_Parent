@@ -19,6 +19,7 @@
             </column>
             <column name="password" type="VARCHAR(255)">
                 <constraints nullable="false"/>
+
             </column>
             <column name="age" type="INT(2)">
                 <constraints nullable="false"/>

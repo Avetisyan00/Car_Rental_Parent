@@ -16,6 +16,7 @@ public class ClientController {
 
     private final UserService userService;
 
+
     //CLIENTS REGISTRATION
     @GetMapping("/registration/client")
     public String userRegistrationPage() {

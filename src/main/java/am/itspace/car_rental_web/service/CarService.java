@@ -12,9 +12,7 @@ import java.util.Optional;
 public interface CarService {
 
     List<Car> findAll();
-
     List<Car> findAllByCategory(Category category);
-
     void deleteById(int id);
 
     byte[] getCarService(String fileName);

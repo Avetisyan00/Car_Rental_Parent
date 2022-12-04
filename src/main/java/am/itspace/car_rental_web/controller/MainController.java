@@ -17,7 +17,6 @@ import java.util.List;
 
 @Controller
 @RequiredArgsConstructor
-
 public class MainController {
 
     private final CarService carService;

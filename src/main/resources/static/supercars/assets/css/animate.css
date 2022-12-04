@@ -14,6 +14,7 @@
  	53%,
  	80%,
  	to {
+
  		-webkit-animation-timing-function: cubic-bezier(.215, .61, .355, 1);
  		-webkit-transform: translateZ(0);
  		animation-timing-function: cubic-bezier(.215, .61, .355, 1);

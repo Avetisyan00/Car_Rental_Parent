@@ -27,7 +27,6 @@ public class CarController {
 
     private final CarService carService;
 
-
     /**
      * This method show cars
      */
